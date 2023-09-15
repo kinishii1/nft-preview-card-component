@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Sedgwick+Ave+Display&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+/* Font size (paragraph): 18px */
+
+:root {
+  /* Primary Colors */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  /* Neutral Colors */
+  --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-blue-main-bg);
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card{
+  width: 310px;
+  height: 540px;
+  border-radius: 10px;
+  background-color: var(--very-dark-blue-card-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-equilibrium{
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  margin-left: 20px;
+}
+
+.texts h1 {
+  margin-top: 26px;
+  font-size: 18px;
+  text-align: left;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+
+.texts p {
+  color: var(--soft-blue);
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.flex-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-info .eth ,
+.flex-info .days{
+ display: flex;
+}
+
+.flex-info .eth p {
+  color: var(--cyan);
+}
+
+.flex-info .days {
+  margin-right: 20px;
+}
+
+.flex-info img{
+  width:10px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+hr {
+  width: 260px;
+  border-color: var(--very-dark-blue-line);
+  margin-bottom: 14px;
+  height: -8px;
+  background-color: var(--very-dark-blue-line);
+  height: 3px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  width: 210px;
+  height: 30px;
+}
+
+.author img {
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   margin-right: 14px;
+}
+
+.author p { 
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+.author span {
+  color: var(--white);
+  margin-left: 6px;
+}
