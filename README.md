@@ -11,15 +11,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/kinishii1/nft-preview-card-component/blob/main/image.png)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-=======
-# nft-preview-card-component
-nft-preview-card-component
-
+- 
